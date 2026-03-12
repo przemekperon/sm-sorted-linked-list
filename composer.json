@@ -1,0 +1,26 @@
+{
+    "name": "przemekperon/sorted-linked-list",
+    "description": "A linked list implementation that maintains elements in sorted order",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^13.0",
+        "phpstan/phpstan": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "PrzemekPeron\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PrzemekPeron\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
