@@ -13,6 +13,5 @@ final class Node
 
     public function __construct(
         public readonly int|string $value,
-    ) {
-    }
+    ) {}
 }

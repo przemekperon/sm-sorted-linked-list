@@ -20,8 +20,7 @@ final class SortedLinkedList implements Countable, IteratorAggregate
 
     public function __construct(
         private readonly SortDirection $direction = SortDirection::ASC,
-    ) {
-    }
+    ) {}
 
     /** @throws InvalidArgumentException */
     public function insert(int|string $value): void
